@@ -1,0 +1,509 @@
+{
+ "schema_version": "1.2.1",
+ "generated_at": "2026-11-12T00:09:12+00:00",
+ "last_modified": "2026-11-08T00:07:38+00:00",
+ "result": {
+  "name": "red-hat-openshift",
+  "aliases": [
+   "openshift",
+   "rh-openshift"
+  ],
+  "label": "Red Hat OpenShift",
+  "category": "server-app",
+  "tags": [
+   "red-hat",
+   "server-app"
+  ],
+  "versionCommand": "oc version",
+  "identifiers": [
+   {
+    "type": "repology",
+    "id": "openshift"
+   },
+   {
+    "type": "cpe",
+    "id": "cpe:/a:redhat:openshift"
+   },
+   {
+    "type": "cpe",
+    "id": "cpe:2.3:a:redhat:openshift"
+   }
+  ],
+  "labels": {
+   "eoas": "Full Support",
+   "discontinued": null,
+   "eol": "Maintenance Support",
+   "eoes": "Extended Update Support"
+  },
+  "links": {
+   "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/redhatopenshift.svg",
+   "html": "https://endoflife.date/red-hat-openshift",
+   "releasePolicy": "https://access.redhat.com/support/policy/updates/openshift"
+  },
+  "releases": [
+   {
+    "name": "4.22",
+    "codename": null,
+    "label": "4.22",
+    "releaseDate": "2026-06-09",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": false,
+    "eoasFrom": "2026-12-31",
+    "isEol": false,
+    "eolFrom": "2027-12-31",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": true,
+    "latest": {
+     "name": "4.22.21",
+     "date": "2026-11-03",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.21",
+    "codename": null,
+    "label": "4.21",
+    "releaseDate": "2025-10-21",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2026-09-09",
+    "isEol": false,
+    "eolFrom": "2027-08-03",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": true,
+    "latest": {
+     "name": "4.21.41",
+     "date": "2026-11-03",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/release_notes/ocp-4-21-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.20",
+    "codename": null,
+    "label": "4.20",
+    "releaseDate": "2025-10-21",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2026-05-03",
+    "isEol": false,
+    "eolFrom": "2027-04-21",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": true,
+    "latest": {
+     "name": "4.20.45",
+     "date": "2026-11-03",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/release_notes/ocp-4-20-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.19",
+    "codename": null,
+    "label": "4.19",
+    "releaseDate": "2025-06-17",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2026-01-21",
+    "isEol": false,
+    "eolFrom": "2026-12-17",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": true,
+    "latest": {
+     "name": "4.19.54",
+     "date": "2026-11-04",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/release_notes/ocp-4-19-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.18",
+    "codename": null,
+    "label": "4.18",
+    "releaseDate": "2025-02-25",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2025-09-17",
+    "isEol": true,
+    "eolFrom": "2026-08-25",
+    "isEoes": false,
+    "eoesFrom": "2027-02-25",
+    "isMaintained": true,
+    "latest": {
+     "name": "4.18.57",
+     "date": "2026-10-15",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/release_notes/ocp-4-18-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.17",
+    "codename": null,
+    "label": "4.17",
+    "releaseDate": "2024-10-01",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2025-05-25",
+    "isEol": true,
+    "eolFrom": "2026-04-01",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.17.59",
+     "date": "2026-10-15",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/release_notes/ocp-4-17-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.16",
+    "codename": null,
+    "label": "4.16",
+    "releaseDate": "2024-06-27",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2025-01-01",
+    "isEol": true,
+    "eolFrom": "2025-12-27",
+    "isEoes": true,
+    "eoesFrom": "2026-06-27",
+    "isMaintained": false,
+    "latest": {
+     "name": "4.16.74",
+     "date": "2026-10-27",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/release_notes/ocp-4-16-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.15",
+    "codename": null,
+    "label": "4.15",
+    "releaseDate": "2024-02-27",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2024-09-27",
+    "isEol": true,
+    "eolFrom": "2025-08-27",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.15.70",
+     "date": "2026-10-22",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.15/html/release_notes/ocp-4-15-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.14",
+    "codename": null,
+    "label": "4.14",
+    "releaseDate": "2023-10-31",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2024-05-27",
+    "isEol": true,
+    "eolFrom": "2025-05-01",
+    "isEoes": true,
+    "eoesFrom": "2025-10-31",
+    "isMaintained": false,
+    "latest": {
+     "name": "4.14.77",
+     "date": "2026-10-27",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.14/html/release_notes/ocp-4-14-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.13",
+    "codename": null,
+    "label": "4.13",
+    "releaseDate": "2023-05-17",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2024-01-31",
+    "isEol": true,
+    "eolFrom": "2024-11-17",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.13.72",
+     "date": "2026-10-15",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.13/html/release_notes/ocp-4-13-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.12",
+    "codename": null,
+    "label": "4.12",
+    "releaseDate": "2023-01-17",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2023-08-17",
+    "isEol": true,
+    "eolFrom": "2024-07-17",
+    "isEoes": true,
+    "eoesFrom": "2025-01-17",
+    "isMaintained": false,
+    "latest": {
+     "name": "4.12.102",
+     "date": "2026-10-27",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.12/html/release_notes/ocp-4-12-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.11",
+    "codename": null,
+    "label": "4.11",
+    "releaseDate": "2022-08-10",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2023-04-17",
+    "isEol": true,
+    "eolFrom": "2024-02-10",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.11.59",
+     "date": "2024-03-27",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.11/html/release_notes/ocp-4-11-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.10",
+    "codename": null,
+    "label": "4.10",
+    "releaseDate": "2022-03-10",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2022-11-10",
+    "isEol": true,
+    "eolFrom": "2023-09-10",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.10.67",
+     "date": "2023-09-06",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/release_notes/ocp-4-10-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.9",
+    "codename": null,
+    "label": "4.9",
+    "releaseDate": "2021-10-18",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2022-06-10",
+    "isEol": true,
+    "eolFrom": "2023-04-18",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.9.59",
+     "date": "2023-04-05",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.9/html/release_notes/ocp-4-9-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.8",
+    "codename": null,
+    "label": "4.8",
+    "releaseDate": "2021-07-27",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2022-01-27",
+    "isEol": true,
+    "eolFrom": "2023-01-27",
+    "isEoes": true,
+    "eoesFrom": "2023-04-27",
+    "isMaintained": false,
+    "latest": {
+     "name": "4.8.57",
+     "date": "2023-01-25",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/release_notes/ocp-4-8-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.7",
+    "codename": null,
+    "label": "4.7",
+    "releaseDate": "2021-02-24",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2021-10-27",
+    "isEol": true,
+    "eolFrom": "2022-08-24",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.7.60",
+     "date": "2022-11-10",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.7/html/release_notes/ocp-4-7-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.6",
+    "codename": null,
+    "label": "4.6",
+    "releaseDate": "2020-11-09",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2021-03-24",
+    "isEol": true,
+    "eolFrom": "2022-10-27",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.6.62",
+     "date": "2022-11-10",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.6/html/release_notes/ocp-4-6-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.5",
+    "codename": null,
+    "label": "4.5",
+    "releaseDate": "2020-07-16",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2020-11-27",
+    "isEol": true,
+    "eolFrom": "2021-07-27",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.5.41",
+     "date": "2021-06-30",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.5/html/release_notes/ocp-4-5-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.4",
+    "codename": null,
+    "label": "4.4",
+    "releaseDate": "2020-05-18",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2020-08-13",
+    "isEol": true,
+    "eolFrom": "2021-02-24",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.4.33",
+     "date": "2021-02-02",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.4/html/release_notes/ocp-4-4-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.3",
+    "codename": null,
+    "label": "4.3",
+    "releaseDate": "2020-02-12",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2020-06-05",
+    "isEol": true,
+    "eolFrom": "2020-10-27",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.3.40",
+     "date": "2020-10-20",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.3/html/release_notes/ocp-4-3-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.2",
+    "codename": null,
+    "label": "4.2",
+    "releaseDate": "2019-10-29",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2020-02-23",
+    "isEol": true,
+    "eolFrom": "2020-07-13",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.2.36",
+     "date": "2020-07-01",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/release_notes/ocp-4-2-release-notes"
+    },
+    "custom": null
+   },
+   {
+    "name": "4.1",
+    "codename": null,
+    "label": "4.1",
+    "releaseDate": "2019-06-18",
+    "isLts": false,
+    "ltsFrom": null,
+    "isEoas": true,
+    "eoasFrom": "2019-11-16",
+    "isEol": true,
+    "eolFrom": "2020-05-05",
+    "isEoes": null,
+    "eoesFrom": null,
+    "isMaintained": false,
+    "latest": {
+     "name": "4.1.41",
+     "date": "2020-04-22",
+     "link": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.1/html/release_notes/ocp-4-1-release-notes"
+    },
+    "custom": null
+   }
+  ]
+ },
+ "retrieved_at": "2026-11-12T00:25:09+00:00"
+}

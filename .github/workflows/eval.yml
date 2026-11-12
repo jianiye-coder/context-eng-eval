@@ -1,0 +1,25 @@
+# CI gate for the data products and retrieval quality. No LLM needed: generation/judge metrics
+# are produced locally (scripts/run_full_eval.sh) and checked with the same regression script.
+name: data-quality-and-retrieval-eval
+on: [push, pull_request]
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt && pip install -e .
+      - name: Rebuild data products from the pinned raw snapshot
+        run: python -m ceeval.ingest
+      - name: Data-quality gate
+        run: python -m ceeval.quality
+      - name: Unit tests
+        run: pytest -q
+      - name: Retrieval eval
+        run: python -m ceeval.evaluate retrieval
+      - name: Regression check (fails the build if metrics drop)
+        run: python scripts/check_regression.py --retrieval-only

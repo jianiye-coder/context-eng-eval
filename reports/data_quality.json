@@ -1,0 +1,73 @@
+{
+ "chunks": {
+  "n_chunks": 656,
+  "n_products": 28,
+  "missing_products": [],
+  "words": {
+   "min": 25,
+   "max": 234,
+   "mean": 127.1
+  },
+  "counts": {
+   "schema_errors": 0,
+   "duplicate_ids": 0,
+   "exact_duplicates": 0,
+   "near_duplicates": 0,
+   "too_short": 0,
+   "garbled": 0,
+   "markup_residue": 0,
+   "word_count_mismatch": 0
+  },
+  "issues": {
+   "schema_errors": [],
+   "duplicate_ids": [],
+   "exact_duplicates": [],
+   "near_duplicates": [],
+   "too_short": [],
+   "garbled": [],
+   "markup_residue": [],
+   "word_count_mismatch": []
+  },
+  "blocking_failures": []
+ },
+ "lifecycle_db": {
+  "n_rows": 511,
+  "schema_ok": true,
+  "counts": {
+   "bad_dates": 0,
+   "eol_before_release": 0,
+   "orphan_product": 0,
+   "missing_release_date": 0,
+   "missing_eol_date": 20
+  },
+  "issues": {
+   "bad_dates": [],
+   "eol_before_release": [],
+   "orphan_product": [],
+   "missing_release_date": [],
+   "missing_eol_date": [
+    "proxmox-ve/9",
+    "docker-engine/29",
+    "postgresql/6.2",
+    "postgresql/6.1",
+    "postgresql/6.0",
+    "mysql/26.10",
+    "redis/8.10",
+    "redis/8.8",
+    "redis/8.6",
+    "redis/8.4",
+    "truenas/25.10",
+    "truenas/25.04",
+    "truenas/24.04",
+    "truenas/23.10",
+    "apache-kafka/4.4",
+    "apache-kafka/4.3",
+    "apache-kafka/4.2",
+    "apache-kafka/4.1",
+    "elasticsearch/9.5",
+    "elasticsearch/9.4"
+   ]
+  },
+  "blocking_failures": []
+ }
+}

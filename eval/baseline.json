@@ -1,0 +1,68 @@
+{
+ "tolerance": 0.02,
+ "latency_tolerance": 0.5,
+ "retrieval": {
+  "bm25": {
+   "recall@5": 0.8444,
+   "mrr@10": 0.7599,
+   "all_evidence@5": 0.7556
+  },
+  "dense": {
+   "recall@5": 0.8667,
+   "mrr@10": 0.7362,
+   "all_evidence@5": 0.8
+  },
+  "hybrid": {
+   "recall@5": 0.9111,
+   "mrr@10": 0.7952,
+   "all_evidence@5": 0.8667
+  },
+  "hybrid_meta_hard": {
+   "recall@5": 0.9111,
+   "mrr@10": 0.8026,
+   "all_evidence@5": 0.8667
+  },
+  "hybrid_meta": {
+   "recall@5": 0.9333,
+   "mrr@10": 0.8048,
+   "all_evidence@5": 0.8889
+  }
+ },
+ "answer": {
+  "bm25": {
+   "accuracy": 0.7037,
+   "groundedness": 0.9739,
+   "abstention_on_unanswerable": 1.0,
+   "latency_p95_s": 17.09,
+   "false_abstention_on_answerable": 0.1846
+  },
+  "dense": {
+   "accuracy": 0.6914,
+   "groundedness": 0.9787,
+   "abstention_on_unanswerable": 0.9375,
+   "latency_p95_s": 17.33,
+   "false_abstention_on_answerable": 0.1385
+  },
+  "hybrid": {
+   "accuracy": 0.7407,
+   "groundedness": 0.9904,
+   "abstention_on_unanswerable": 0.9375,
+   "latency_p95_s": 19.88,
+   "false_abstention_on_answerable": 0.1385
+  },
+  "hybrid_meta": {
+   "accuracy": 0.7407,
+   "groundedness": 0.9905,
+   "abstention_on_unanswerable": 0.9375,
+   "latency_p95_s": 13.95,
+   "false_abstention_on_answerable": 0.1231
+  },
+  "routed": {
+   "accuracy": 0.9136,
+   "groundedness": 0.9921,
+   "abstention_on_unanswerable": 1.0,
+   "latency_p95_s": 14.2,
+   "false_abstention_on_answerable": 0.0308
+  }
+ }
+}
